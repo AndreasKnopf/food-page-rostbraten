@@ -7,13 +7,16 @@ body {
     font-family: "Josefin Sans", sans-serif;;
 }
 
-main {
-    padding: 30px;
-}
-
 h1 {
     font-size: 3rem;
     text-align: center;
+}
+
+h2 {
+    color: #ff3838;
+    background-color: black;
+    padding: 10px;
+    text-transform: uppercase;
 }
 
 nav {
@@ -37,7 +40,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(255, 56, 56);
+    color: #ff3838;
     font-size: 1.5rem;
     text-transform: uppercase;
 }
@@ -62,7 +65,16 @@ nav ul li a:hover {
     object-fit: cover;
 }
 
-.zubereitung {
-    padding-top: 100px;
+.zutaten, .zubereitung, .info {
+    padding: 50px 10%;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
